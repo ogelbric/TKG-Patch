@@ -47,7 +47,7 @@ kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
 kubectl get virtualmachine,tanzukubernetesclusters
 kubectl describe  tanzukubernetescluster tkg-cluster-1
 kubectl describe virtualmachine
-
+watch "kubectl describe virtualmachine | grep -i image"
 
 ```
 
