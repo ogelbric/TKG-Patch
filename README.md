@@ -25,7 +25,7 @@ kubectl get virtualmachineimages | sort -t "." -k2
 
 ![GitHub](ContentLib.png)
 
-* Patching sequense (cut and paste the read...EOF and paste into Linux command line)
+* Patching sequense (cut and paste the read...EOF into Linux command line)
 
 ```
 read -r -d '' PATCH <<'EOF'
