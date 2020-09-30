@@ -10,11 +10,7 @@ kubectl get tanzukubernetesclusters
 
 ```
 
-* Progress 
-
-![GitHub](ClusterCreationStage.png)
-
-* Result
+* This should be the result after a few minutes
 
 ![GitHub](ClusterRunningStage.png)
 
