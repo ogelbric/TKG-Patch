@@ -12,7 +12,7 @@ kubectl get tanzukubernetesclusters
 
 * Progress 
 
-![GitHub](ClusterCreationTage.png)
+![GitHub](ClusterCreationStage.png)
 
 * Result
 
