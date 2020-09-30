@@ -63,5 +63,6 @@ watch "kubectl describe virtualmachine | grep -i image"
 
 ```
 kubectl get tanzukubernetescluster,cluster-api,virtualmachinesetresourcepolicy,virtualmachineservice,virtualmachine
+kubectl -n namespace1000 get events -w
 
 ```
