@@ -41,6 +41,18 @@ kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
 
 ```
 
+* Commands to monitor deployment
+
+```
+kubectl get virtualmachine,tanzukubernetesclusters
+kubectl describe  tanzukubernetescluster tkg-cluster-1
+kubectl describe virtualmachine
+
+
+```
+
+
+
 * Random commands that helped in creating this write up
 
 ```
