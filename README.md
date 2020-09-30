@@ -51,7 +51,13 @@ watch "kubectl describe virtualmachine | grep -i image"
 
 ```
 
+* Observer the first new worker deployed
 
+![GitHub](NewWorker.png)
+
+* Versions of the controll plane VM's and the worker VM's
+
+![GitHub](VersionStatus.png)
 
 * Random commands that helped in creating this write up
 
