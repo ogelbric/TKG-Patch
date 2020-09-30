@@ -23,6 +23,8 @@ kubectl get virtualmachineimages | sort -t "." -k2
 ```
 ![GitHub](VirtualMachineImages.png)
 
+![GitHub](ContentLib.png)
+
 * Patching sequense
 
 ```
