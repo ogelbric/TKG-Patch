@@ -14,3 +14,6 @@ kubectl get tanzukubernetesclusters
 
 ![GitHub](ClusterRunningStage.png)
 
+![GitHub](vCenterResult.png)
+
+
