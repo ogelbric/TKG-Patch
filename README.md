@@ -19,7 +19,7 @@ kubectl get tanzukubernetesclusters
 * Check the content library for avaliabel versions
 
 ```
-kubectl get virtualmachineimages
+kubectl get virtualmachineimages | sort -t "." -k2
 ```
 ![GitHub](VirtualMachineImages.png)
 
