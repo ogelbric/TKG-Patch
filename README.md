@@ -25,17 +25,20 @@ kubectl get virtualmachineimages | sort -t "." -k2
 
 ![GitHub](ContentLib.png)
 
-* Patching sequense
+* Patching sequense (cut and paste the read...EOF and paste into Linux command line)
 
 ```
-	read -r -d '' PATCH <<'EOF'
-	spec:
-	  distribution:
-	    fullVersion: null
-	    version: v1.16.12
-	EOF
+read -r -d '' PATCH <<'EOF'
+spec:
+  distribution:
+    fullVersion: null
+    version: v1.16.12
+EOF
 
-	kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
+echo $PATCH
+
+kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
+
 ```
 
 * Random commands that helped in creating this write up
