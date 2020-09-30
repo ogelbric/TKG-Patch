@@ -31,3 +31,9 @@ kubectl get tanzukubernetesclusters
 	kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
 ```
 
+* Random commands that helped in creating this write up
+
+```
+kubectl get tanzukubernetescluster,cluster-api,virtualmachinesetresourcepolicy,virtualmachineservice,virtualmachine
+
+```
