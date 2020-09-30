@@ -5,10 +5,16 @@
 * Create a TKG (version 1.68)
 
 ```
-kubectl apply -f ./
+kubectl apply -f https://github.com/ogelbric/YAML/raw/master/TKG1001GA-3m-3w-1168.yaml
 kubectl get tanzukubernetesclusters  
 
 ```
 
+* Progress 
 
+![GitHub](ClusterCreationTage.png)
+
+* Result
+
+![GitHub](ClusterRunningStage.png)
 
