@@ -18,6 +18,11 @@ kubectl get tanzukubernetesclusters
 
 * Check the content library for avaliabel versions
 
+```
+kubectl get virtualmachineimages
+```
+![GitHub](VirrrtualMachineImages.png)
+
 * Patching sequense
 
 ```
