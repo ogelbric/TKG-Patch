@@ -21,7 +21,7 @@ kubectl get tanzukubernetesclusters
 ```
 kubectl get virtualmachineimages | sort -t "." -k2
 ```
-![GitHub](VirtualMachineImages.png)
+![GitHub](VirtualMachineImagesSorted.png)
 
 ![GitHub](ContentLib.png)
 
