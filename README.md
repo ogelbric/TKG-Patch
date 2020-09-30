@@ -16,4 +16,18 @@ kubectl get tanzukubernetesclusters
 
 ![GitHub](vCenterResult.png)
 
+* Check the content library for avaliabel versions
+
+* Patching sequense
+
+```
+	read -r -d '' PATCH <<'EOF'
+	spec:
+	  distribution:
+	    fullVersion: null
+	    version: v1.17.7
+	EOF
+
+	kubectl patch --type=merge tanzukubernetescluster tkg-cluster-1 --patch "$PATCH"
+```
 
