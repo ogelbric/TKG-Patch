@@ -10,9 +10,11 @@ kubectl get tanzukubernetesclusters
 
 ```
 
-* This should be the result after a few minutes
+* Cluster is creating
 
 ![GitHub](ClusterCreation.png)
+
+* This should be the result after a few minutes
 
 ![GitHub](ClusterRunningStage.png)
 
