@@ -12,6 +12,8 @@ kubectl get tanzukubernetesclusters
 
 * This should be the result after a few minutes
 
+![GitHub](ClusterCreation.png)
+
 ![GitHub](ClusterRunningStage.png)
 
 ![GitHub](vCenterResult.png)
