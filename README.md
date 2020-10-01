@@ -2,10 +2,10 @@
 
 * This is an exampe of patching a Tanzu Kubernetes Grid (TKG / guest cluster) in vSphere 7 with Tanzu
 
-* Create a TKG (version 1.68)
+* Create a TKG (version 1.178) cluster
 
 ```
-kubectl apply -f https://github.com/ogelbric/YAML/raw/master/TKG1001GA-3m-3w-1168.yaml
+kubectl apply -f https://github.com/ogelbric/YAML/raw/master/TKG1001GA-3m-3w-1178.yaml
 kubectl get tanzukubernetesclusters  
 
 ```
