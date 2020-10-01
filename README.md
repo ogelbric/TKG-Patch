@@ -34,7 +34,7 @@ read -r -d '' PATCH <<'EOF'
 spec:
   distribution:
     fullVersion: null
-    version: v1.16.12
+    version: v1.17.8
 EOF
 
 echo $PATCH
