@@ -60,10 +60,12 @@ watch "kubectl describe virtualmachine | grep -i image"
 ![GitHub](NewWorker1.png)
 
 * Monitor Versions of the control plane VM's and the worker VM's
+
 ```
 watch "kubectl describe  tanzukubernetescluster tkg-cluster-1 | tail -18 ; echo "--------"; kubectl describe virtualmachine | grep -i image"
 ```
-![GitHub](VersionStatus.png)
+
+![GitHub](MonitorStatus.png)
 
 * Random commands that helped in creating this write up
 
