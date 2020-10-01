@@ -20,7 +20,7 @@ kubectl get tanzukubernetesclusters
 
 ![GitHub](vCenterResult.png)
 
-* Check the content library for avaliabel versions
+* Check the content library for availabel versions
 
 ```
 kubectl get virtualmachineimages | sort -t "." -k2
